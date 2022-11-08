@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class CondicionalSimple {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("programa para determinar mayoria de edad");
+        System.out.println("ingrese su edad");
+        int edad= teclado.nextInt();
+        boolean evaluacion =(edad <= 18);
+        if (edad >= 18){
+            System.out.println("eres mayor de edad");
+            System.out.println("estas casi listo para la u");
+        }
+
+    }
+}
